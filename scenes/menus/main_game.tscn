@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://buywkjur33fo4"]
+
+[ext_resource type="Script" uid="uid://d0fr01rjb6jtp" path="res://scripts/main_game.gd" id="1_cnsl8"]
+[ext_resource type="AudioStream" uid="uid://cn3ujimbs881h" path="res://assets/music/bitbeat.wav" id="1_k7bwd"]
+[ext_resource type="Script" uid="uid://bmghothxpn45n" path="res://scripts/conductor_bit_beat.gd" id="2_bmr0k"]
+
+[node name="Node2D" type="Node2D" unique_id=143215298]
+script = ExtResource("1_cnsl8")
+
+[node name="conductorBitBeat" type="AudioStreamPlayer" parent="." unique_id=1794482844]
+stream = ExtResource("1_k7bwd")
+autoplay = true
+script = ExtResource("2_bmr0k")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1913580797]
+offset_right = 40.0
+offset_bottom = 40.0

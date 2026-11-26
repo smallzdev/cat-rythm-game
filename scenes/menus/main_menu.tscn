@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://8lowqwmtir4w"]
+
+[node name="Node2D" type="Node2D" unique_id=644270018]
+
+[node name="backgroundTexture" type="TextureRect" parent="." unique_id=1605720507]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="gameTitleLabel" type="Label" parent="." unique_id=1747648523]
+offset_left = 2.0
+offset_top = 11.0
+offset_right = 1284.0
+offset_bottom = 62.0
+theme_override_font_sizes/font_size = 49
+text = "Smallz's Cat Rythm Game :D"
+horizontal_alignment = 1
+
+[node name="playButton" type="Button" parent="." unique_id=1044130258]
+offset_left = 424.0
+offset_top = 159.0
+offset_right = 810.0
+offset_bottom = 236.0
+theme_override_font_sizes/font_size = 50
+text = "Play"
+
+[node name="Button2" type="Button" parent="." unique_id=786507274]
+offset_left = 424.0
+offset_top = 271.0
+offset_right = 810.0
+offset_bottom = 348.0
+theme_override_font_sizes/font_size = 50
+text = "Coming soon"
+
+[node name="creditsButton" type="Button" parent="." unique_id=552018250]
+offset_left = 424.0
+offset_top = 383.0
+offset_right = 810.0
+offset_bottom = 460.0
+theme_override_font_sizes/font_size = 50
+text = "Credits"
+
+[node name="buttonspacingmeasure" type="Button" parent="." unique_id=752026903]
+visible = false
+offset_left = -17.0
+offset_top = 405.0
+offset_right = 369.0
+offset_bottom = 440.0
+theme_override_font_sizes/font_size = 1
+text = "Play"
